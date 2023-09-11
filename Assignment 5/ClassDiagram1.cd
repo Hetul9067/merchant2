@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assignment_5.City">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAIAIAAAAAAAQCAAAQAAAAACAACAAAAEAACAAA=</HashCode>
+      <FileName>City.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="inventories" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Assignment_5.Item">
+    <Position X="11.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAIAAAAAAAAAIAgAEAQEAAAEQCBAAAAEgAAAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_5.Game">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_5.Smuggler">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAAAAAgAAIAEBIQiAgQAAgAA2AABADggEIAACAAA=</HashCode>
+      <FileName>Smuggler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentCity" />
+      <Field Name="nextCity" />
+      <Field Name="tempCity" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="citiesLi" />
+      <Field Name="inventories" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="System.Object">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Assignment_5.CustomException">
+    <Position X="14.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>CustomException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Exception" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assignment_5.Display">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIACAAAAAAAAAAAAABAAiAAIgACIAAQACAABAAAAE=</HashCode>
+      <FileName>Display.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="s1" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="cities" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
